@@ -77,9 +77,6 @@ Domestic violence involves abuse within relationships,criminal law
 Stalking involves repeated unwanted contact,criminal law
 Harassment involves unwanted disturbing behavior,criminal law
 Defamation involves false damaging statements,criminal law
-Libel is written defamation,criminal law
-Slander is spoken defamation,criminal law
-Invasion of privacy violates personal boundaries,criminal law
 Wiretapping involves unauthorized electronic surveillance,criminal law
 Eavesdropping involves secret listening to conversations,criminal law
 Obscenity involves offensive sexual material,criminal law
@@ -206,7 +203,6 @@ UCC governs sales of goods,contract law
 Common law governs services and real estate,contract law
 Merchant rules apply to business professionals,contract law
 Battle of forms addresses conflicting terms,contract law
-Firm offer rule under UCC,contract law
 Mailbox rule determines acceptance timing,contract law
 Mirror image rule requires identical acceptance,contract law
 Last shot rule in battle of forms,contract law
@@ -214,7 +210,6 @@ Course of dealing considers past transactions,contract law
 Usage of trade considers industry customs,contract law
 Course of performance considers current contract conduct,contract law
 Output and requirements must be reasonable,contract law
-Perfect tender rule for goods delivery,contract law
 Cure right allows seller to fix nonconforming goods,contract law
 Revocation of offer before acceptance,contract law
 Rejection terminates offer,contract law
@@ -523,9 +518,6 @@ Trespass to chattels involves interference with property,civil law
 Conversion involves serious interference with property,civil law
 Fraud involves intentional misrepresentation,civil law
 Defamation involves false statements harming reputation,civil law
-Libel is written defamation,civil law
-Slander is spoken defamation,civil law
-Invasion of privacy violates personal boundaries,civil law
 Public disclosure of private facts,civil law
 False light portrays person in misleading way,civil law
 Appropriation of likeness for commercial use,civil law
@@ -563,8 +555,6 @@ Design defects make product unreasonably dangerous,civil law
 Warning defects lack adequate instructions,civil law
 Breach of warranty involves failure of promise,civil law
 Express warranty explicit promise about product,civil law
-Implied warranty of merchantability,civil law
-Implied warranty of fitness for particular purpose,civil law
 Privity requirement for warranty claims,civil law
 Misrepresentation about products,civil law
 Consumer expectation test for defects,civil law
@@ -579,10 +569,8 @@ Alternative liability when multiple defendants,civil law
 Enterprise liability for industry-wide harm,civil law
 Nuisance involves interference with use of property,civil law
 Private nuisance affects individual property,civil law
-Public nuisance affects community,civil law
 Permanent nuisance involves long-term interference,civil law
 Temporary nuisance involves short-term interference,civil law
-Coming to the nuisance defense limited,civil law
 Reasonableness balancing for nuisance claims,civil law
 Abatement of nuisance remedies,civil law
 Injunction against nuisance,civil law
@@ -714,7 +702,6 @@ Establishment Clause prohibits government establishment of religion,constitution
 Lemon test for Establishment Clause,constitutional law
 Endorsement test for Establishment Clause,constitutional law
 Coercion test for Establishment Clause,constitutional law
-Free Exercise Clause protects religious practice,constitutional law
 Sherbert test for Free Exercise claims,constitutional law
 Compelling interest test for Free Exercise,constitutional law
 Smith test for neutral laws of general applicability,constitutional law
@@ -854,9 +841,7 @@ Physical occupation taking,property law
 Total deprivation taking,property law
 Nuisance law addresses interference with use,property law
 Private nuisance affects individual,property law
-Public nuisance affects community,property law
 Balancing test for nuisance reasonableness,property law
-Coming to the nuisance defense limited,property law
 Commercial entities must register with corporate regulators,commercial law
 A company may issue shares subject to disclosure,commercial law
 Directors owe fiduciary duties to the corporation,commercial law
@@ -881,9 +866,7 @@ Course of dealing between parties,commercial law
 Usage of trade in industry,commercial law
 Course of performance under contract,commercial law
 Merchant rules for business professionals,commercial law
-Firm offer rule under UCC,commercial law
 Battle of forms under UCC,commercial law
-Perfect tender rule for goods delivery,commercial law
 Cure right for nonconforming goods,commercial law
 Revocation of acceptance for defective goods,commercial law
 Cover allows buyer to purchase substitute goods,commercial law
@@ -893,8 +876,6 @@ Liquidated damages if reasonable,commercial law
 Specific performance for unique goods,commercial law
 Warranty of title for goods,commercial law
 Express warranties by affirmation,commercial law
-Implied warranty of merchantability,commercial law
-Implied warranty of fitness for particular purpose,commercial law
 Disclaimer of warranties must be conspicuous,commercial law
 Limitation of remedies allowed,commercial law
 Unconscionability invalidates unfair terms,commercial law
@@ -949,7 +930,6 @@ Wire transfers under Article 4A,commercial law
 Automated clearing house transactions,commercial law
 Credit card transactions regulated,commercial law
 Debit card transactions regulated,commercial law
-Secured transactions under Article 9,commercial law
 Security interest in personal property,commercial law
 Attachment creates enforceable interest,commercial law
 Perfection makes interest effective against others,commercial law
