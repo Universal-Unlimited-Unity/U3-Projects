@@ -6,4 +6,4 @@ def LawClf_predict(TEXT):
   return LawClf.predict(TEXT)
 
 if __name__ == '__main__':
-  LawClf_predict(TEXT)
+  print(LawClf_predict(TEXT))

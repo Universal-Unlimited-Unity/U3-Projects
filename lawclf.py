@@ -5,7 +5,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.metrics import classification_report
 import pandas as pd
 import joblib
-PATH = 'lawdata.csv'
+PATH = 'U3-Projects/lawdata.csv'
 
 def Train_Model(PATH):
   df = pd.read_csv(PATH)
@@ -29,4 +29,4 @@ def Clf_Report(PATH, save_model=False):
   return report
     
 if __name__ == '__main__':
-  Clf_Report(PATH, save_model=True)
+  Clf_Report(PATH, save_model=False)
