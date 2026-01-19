@@ -6,7 +6,14 @@ class Law:
     self.law = law
     self.ready = False
     
-  def __prepare():
+  def __isready(self):
+    return self.ready
+      
+  def __ensure_law(self):
+    if not self.law:
+      raise Exception("Law List Is Empty")
+  def __prepare(self):
+    self.ensure_law()
     RuleClf = joblib.load('Rule.Clf')
     rule_soft_type = RuleClf.predict_probs(self.law)
     rule_soft_type = pd.DataFrame(rule_soft_type, columns=RuleClf.classes_)
@@ -15,19 +22,18 @@ class Law:
     rule_hard_type = RuleClf.predict(self.law)
     rule_hard_type = pd.DataFrame({'sents': self.law, 'label': rule_hard_type})
     self.rule_hard_type = rule_hard_type
-    self.defs = self.rule_hard_type[rules_hard_type['label'] == 'Definition']['sents']
-    self.oblgs = self.rule_hard_type[rules_hard_type['label'] == 'Obligation']['sents']
-    self.prohs = self.rule_hard_type[rules_hard_type['label'] == 'Prohibition']['sents']
-    self.sancs = self.rule_hard_type[rules_hard_type['label'] == 'Sanction']['sents']
-    self.exceps = self.rule_hard_type[rules_hard_type['label'] == 'Exception']['sents']
+    self.defs = self.rule_hard_type[rule_hard_type['label'] == 'Definition']['sents']
+    self.oblgs = self.rule_hard_type[rule_hard_type['label'] == 'Obligation']['sents']
+    self.prohs = self.rule_hard_type[rule_hard_type['label'] == 'Prohibition']['sents']
+    self.sancs = self.rule_hard_type[rule_hard_type['label'] == 'Sanction']['sents']
+    self.exceps = self.rule_hard_type[rule_hard_type['label'] == 'Exception']['sents']
     
     # prepared
     
     self.ready = True
 
   def rules_types(self) -> pd.DataFrame:
-    if not self.law:
-      raise Exception("Law List Is Empty")
+    self.__ensure_law()
     LawClf = joblib.load('LawClf.joblib')
     probs = LawClf.predict_proba(self.law)
     df = pd.DataFrame(probs, columns=LawClf.classes_)
@@ -49,7 +55,7 @@ class Law:
   def type(self, margin: float | None = None) -> str | pd.DataFrame:
     if margin is None:
       margin = 0.01
-    df = self.types_ratio(self.law)
+    df = self.types_ratio()
     maxv = df['Percentage'].max()
     df = df[df['Percentage'] > maxv - margin]
     if len(df) == 1:
@@ -57,44 +63,44 @@ class Law:
     else:
       return df[['Law Type', 'Percentage']].sort_values(by=['Percentage'], ascending=False).reset_index(drop=True)
 
-  def legal_function():
-    if self.ready:
+  def legal_function(self):
+    if self.__isready():
       return self.rule_hard_type
     self.__prepare()
     return self.rule_hard_type
 
-  def legal_function_probs():
-    if self.ready:
+  def legal_function_probs(self):
+    if self.__isready():
       return self.rule_soft_type
     self.__prepare()
     return self.rule_soft_type
 
-  def definitions():
-    if self.ready:
+  def definitions(self):
+    if self.__isready():
       return self.defs
     self.__prepare()
     return self.defs
 
-  def obligations():
-    if self.ready:
+  def obligations(self):
+    if self.__isready():
       return self.oblgs
     self.__prepare()
     return self.oblgs
 
-  def prohibitions():
-    if self.ready:
+  def prohibitions(self):
+    if self.__isready():
       return self.prohs
     self.__prepare()
     return self.prohs
     
-  def sanctions():
-    if self.ready:
+  def sanctions(self):
+    if self.__isready():
       return self.sancs
     self.__prepare()
     return self.sancs
     
-  def exceptions():
-    if self.ready:
+  def exceptions(self):
+    if self.__isready():
       return self.exceps
     self.__prepare()
     return self.exceps
