@@ -5,8 +5,8 @@ from sklearn.model_selection import train_test_split
 from sklearn.metrics import classification_report
 import pandas as pd
 import joblib
-PATH = 'U3-Projects/lawdata.csv'
-
+PATH = 'U3-Projects/data/lawdata.csv'
+PATH2 = 'U3-Projects/data/def.csv'
 def Train_LawClf(PATH):
   df = pd.read_csv(PATH)
   x = list(df['sentence'])
@@ -28,21 +28,24 @@ def LawClf_Report(PATH, save_model=False):
     joblib.dump(LawClf, 'LawClf.joblib')
   return report
 
-def Train_RuleClf(PATH2):
-  df = pd.read_csv(PATH2)
+def Train_RuleClf(PATH):
+  df = pd.read_csv(PATH)
   x = df['sentence']
   y = df['label']
-  RuleClf = Pipeline([('Tfidf', TfidfVetorizer()),
+  RuleClf = Pipeline([('Tfidf', TfidfVectorizer()),
                       ('model', LogisticRegression())])
-  x_train, x_train, y_train, y_test = train_test_split(x, y, test_size=0.2, random_state=42)
+  x_train, x_test, y_train, y_test = train_test_split(x, y, test_size=0.2, random_state=42)
+  RuleClf.fit(x_train, y_train)
   return RuleClf, x_test, y_test
 
-def RuleClf_Report(PATH2, save_model=False):
-  RuleClf, x_test, y_test = Train_RuleClf(PATH2)
+def RuleClf_Report(PATH, save_model=False):
+  RuleClf, x_test, y_test = Train_RuleClf(PATH)
   y_pred = RuleClf.predict(x_test)
-  report = classifiaction_report(y_test, y_predict)
+  report = classification_report(y_test, y_pred)
   print(report)
   if save_model:
     joblib.dump(RuleClf, 'RuleClf.joblib')
   return report
 
+
+RuleClf_Report(PATH2, save_model=True)

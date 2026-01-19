@@ -1,0 +1,720 @@
+sentence,label
+"A minor is a person who has not reached eighteen years of age.",definition
+"A contract is an agreement intended to create legally binding obligations.",definition
+"Consideration is something of value exchanged between contracting parties.",definition
+"Negligence is the failure to exercise reasonable care under the circumstances.",definition
+"Gross negligence is a serious deviation from the standard of ordinary care.",definition
+"Intent is the conscious objective to bring about a particular result.",definition
+"Recklessness is awareness and disregard of a substantial and unjustifiable risk.",definition
+"Possession is control over property with the intent to exercise such control.",definition
+"Ownership is the right to use enjoy and dispose of property.",definition
+"Property includes movable and immovable things recognized by law.",definition
+"A public place is any area accessible to the general public.",definition
+"A dwelling is a structure used wholly or partly for human habitation.",definition
+"Personal data is information relating to an identifiable natural person.",definition
+"Sensitive data is personal data revealing intimate or protected characteristics.",definition
+"Processing is any operation performed on personal data.",definition
+"A data controller is the entity that determines purposes and means of processing.",definition
+"A data processor is the entity that processes data on behalf of a controller.",definition
+"A data breach is unauthorized access to or disclosure of protected data.",definition
+"Confidential information is information not publicly available and protected by law.",definition
+"A trade secret is confidential business information with economic value.",definition
+"Bribery is the offering or acceptance of an undue advantage to influence conduct.",definition
+"Extortion is obtaining a benefit through threats or coercion.",definition
+"Robbery is theft accompanied by force or intimidation.",definition
+"Burglary is unlawful entry into a building with intent to commit an offense.",definition
+"Forgery is the making or alteration of a document with intent to deceive.",definition
+"Fraud is intentional misrepresentation of a material fact to obtain advantage.",definition
+"Money laundering is concealing the origin of proceeds derived from crime.",definition
+"An accomplice is a person who knowingly assists in committing an offense.",definition
+"An attempt is the commencement of execution of an offense without completion.",definition
+"Conspiracy is an agreement between two or more persons to commit an offense.",definition
+"Self-defense is the use of reasonable force to repel an unlawful attack.",definition
+"Duress is acting under an immediate threat of serious harm.",definition
+"Immunity is legal protection from prosecution or liability.",definition
+"Jurisdiction is the authority of a court to hear and decide a case.",definition
+"Venue is the proper geographical location for a legal action.",definition
+"Standing is the legal capacity to bring a claim before a court.",definition
+"Evidence is material presented to establish facts in dispute.",definition
+"Hearsay is an out-of-court statement offered for its truth.",definition
+"Privilege is the right to withhold certain information from disclosure.",definition
+"Probable cause is a reasonable basis to believe a fact is true.",definition
+"Reasonable doubt is doubt based on reason arising from the evidence.",definition
+"An arrest is the taking of a person into lawful custody.",definition
+"A search is an examination of a person place or thing for evidence.",definition
+"A seizure is the taking of property by lawful authority.",definition
+"Bail is conditional release of an accused pending trial.",definition
+"A conviction is a formal finding of guilt by a court.",definition
+"An appeal is a request for review of a judicial decision.",definition
+"A judgment is the final determination of rights by a court.",definition
+"Damages are monetary compensation awarded for loss or injury.",definition
+"Restitution is repayment to a victim for harm caused.",definition
+"A fine is a monetary penalty imposed by lawful authority.",definition
+"Imprisonment is deprivation of liberty by confinement.",definition
+"Bankruptcy is a legal process addressing insolvency.",definition
+"Insolvency is inability to pay debts as they fall due.",definition
+"A creditor is a person to whom a debt is owed.",definition
+"A debtor is a person who owes money to another.",definition
+"A lease is a contract granting possession of property for rent.",definition
+"Rent is consideration paid for use of property.",definition
+"An easement is a nonpossessory right to use another’s land.",definition
+"A mortgage is a security interest in property to secure a debt.",definition
+"A will is a document disposing of property upon death.",definition
+"Testamentary capacity is the legal ability to make a will.",definition
+"Intestacy is distribution of property when no valid will exists.",definition
+"Heirship is the legal right to inherit property.",definition
+"Guardianship is legal authority to care for a minor or incapacitated person.",definition
+"Adoption is the legal creation of a parent-child relationship.",definition
+"Marriage is a legally recognized union between persons.",definition
+"Divorce is the legal dissolution of a marriage.",definition
+"Custody is legal authority over the care of a child.",definition
+"Visitation is the right of access to a child by a noncustodial parent.",definition
+"Alimony is financial support paid by one spouse to another.",definition
+"Child support is financial assistance for the care of a child.",definition
+"Employment is a contractual relationship between employer and employee.",definition
+"An employee is a person who performs work under direction for pay.",definition
+"An employer is a person or entity that hires workers.",definition
+"Wages are compensation paid for labor or services.",definition
+"Overtime is work performed beyond standard working hours.",definition
+"A collective agreement is a contract between employers and unions.",definition
+"A strike is a collective cessation of work by employees.",definition
+"Discrimination is unequal treatment based on prohibited grounds.",definition
+"Harassment is unwanted conduct creating a hostile environment.",definition
+"Commercial law governs business and trade activities.",definition
+"A merchant is a person engaged in commercial transactions.",definition
+"A company is a legal entity formed for business purposes.",definition
+"Legal personality is the capacity to have rights and obligations.",definition
+"Share capital is the total value of shares issued by a company.",definition
+"A shareholder is a person owning shares in a company.",definition
+"A director is a person managing company affairs.",definition
+"Fiduciary duty is an obligation to act in another’s best interest.",definition
+"Insolvent liquidation is winding up a company unable to pay debts.",definition
+"Competition law regulates market behavior between businesses.",definition
+"Consumer law protects buyers of goods and services.",definition
+"A warranty is a promise regarding the quality of goods.",definition
+"A defect is a flaw rendering a product unsafe or unfit.",definition
+"Product liability is responsibility for damage caused by defective products.",definition
+"Property law governs ownership and use of property.",definition
+"Real property is land and things permanently attached to it.",definition
+"Personal property is movable property not classified as real.",definition
+"Co-ownership is shared ownership of property by multiple persons.",definition
+"Partition is division of co-owned property.",definition
+"Adverse possession is acquisition of ownership through long possession.",definition
+"Zoning is regulation of land use by public authority.",definition
+"Eminent domain is state power to take property for public use.",definition
+"Just compensation is payment for property taken by the state.",definition
+"Civil law governs relations between private persons.",definition
+"Civil liability is responsibility to repair damage caused to others.",definition
+"Tort is a civil wrong causing harm to another.",definition
+"Duty of care is an obligation to act reasonably to avoid harm.",definition
+"Breach is failure to comply with a legal duty.",definition
+"Causation is the link between conduct and damage.",definition
+"Strict liability is responsibility without proof of fault.",definition
+"Constitutional law governs the organization of the state.",definition
+"A constitution is the supreme law of a state.",definition
+"Fundamental rights are basic rights protected by the constitution.",definition
+"Separation of powers divides authority among state branches.",definition
+"Judicial review is court power to assess constitutionality of laws.",definition
+"Equality before the law is equal treatment of all persons.",definition
+"Due process is the requirement of fair legal procedures.",definition
+"Freedom of expression is the right to express opinions freely.",definition
+"Rule of law is the principle that law governs all persons.",definition
+"Administrative law regulates actions of public authorities.",definition
+"A regulation is a binding rule issued by executive authority.",definition
+"A permit is official authorization to perform an activity.",definition
+"A license is legal permission to engage in regulated conduct.",definition
+"Public order refers to fundamental societal norms protected by law.",definition
+"Good faith is honesty and fairness in legal relations.",definition
+"Abuse of rights is exercise of a right in an excessive manner.",definition
+"Prescription is loss or acquisition of rights through passage of time.",definition
+"Limitation period is the time limit for bringing legal action.",definition
+"Force majeure is an unforeseeable event preventing performance.",definition
+"Nullity is absence of legal effect of an act.",definition
+"Voidability is the ability to invalidate a legal act.",definition
+"Legal capacity is ability to hold rights and obligations.",definition
+"Natural person is a human individual recognized by law.",definition
+"Legal person is an entity recognized as having legal rights.",definition
+"Representation is acting on behalf of another person.",definition
+"Agency is a relationship where one acts for another.",definition
+"Mandate is authority given to perform acts for another.",definition
+"Succession is transfer of rights upon death.",definition
+"Liability is legal responsibility for one’s actions.",definition
+"Obligation is a legal duty to perform or refrain from an act.",definition
+"Contractual obligation arises from agreement between parties.",definition
+"Extra-contractual liability arises independently of contract.",definition
+"Legal certainty is predictability and stability of law.",definition
+"Public interest is the welfare or well-being of society.",definition
+"Sanction is a legal consequence imposed for violation of law.",definition
+"Exception is a provision that limits the application of a rule.",definition
+"The employer shall provide a written employment contract to the employee.",obligation
+"An employer must ensure safe and healthy working conditions.",obligation
+"The tenant shall pay rent on the date agreed in the lease.",obligation
+"The landlord must maintain the premises in a habitable condition.",obligation
+"A party must perform contractual obligations in good faith.",obligation
+"The seller shall deliver the goods at the agreed place and time.",obligation
+"The buyer must pay the price according to the contract terms.",obligation
+"The controller shall implement appropriate measures to protect personal data.",obligation
+"The processor must process data only on documented instructions.",obligation
+"A public authority shall publish its final decision in writing.",obligation
+"The accused must be informed promptly of the charges.",obligation
+"The prosecution shall disclose exculpatory evidence to the defense.",obligation
+"Witnesses must testify truthfully unless a lawful privilege applies.",obligation
+"The court shall give reasons for its judgment.",obligation
+"An appeal must be filed within the prescribed legal time limit.",obligation
+"A claimant shall prove the claim on the balance of probabilities.",obligation
+"A party must mitigate losses resulting from a breach.",obligation
+"The insured must notify the insurer of a loss without undue delay.",obligation
+"An operator shall maintain records for inspection by authorities.",obligation
+"A license holder must comply with all license conditions.",obligation
+"An applicant shall provide complete and accurate information.",obligation
+"A director must act in the best interests of the company.",obligation
+"A trustee shall manage trust property with due care.",obligation
+"Parents must provide care and support for their children.",obligation
+"Spouses shall contribute to household expenses according to means.",obligation
+"A guardian must act solely for the benefit of the minor.",obligation
+"A driver shall stop immediately after an accident causing injury.",obligation
+"A business must display required permits at its premises.",obligation
+"Employers shall pay wages at least once per month.",obligation
+"Overtime work must be compensated at the statutory rate.",obligation
+"An employee shall follow lawful instructions of the employer.",obligation
+"A landlord must ensure quiet enjoyment of the premises.",obligation
+"A tenant shall use the property in a reasonable manner.",obligation
+"A data breach must be reported to the supervisory authority.",obligation
+"The parties shall cooperate to resolve contractual disputes.",obligation
+"A person must not obstruct an authorized inspector.",obligation
+"A regulated entity shall establish a compliance program.",obligation
+"A bank must verify customer identity before opening an account.",obligation
+"A merchant shall keep accurate accounting records.",obligation
+"A company must file annual returns with the registry.",obligation
+"An employer must provide paid annual leave.",obligation
+"An employer shall not retaliate against lawful complaints.",obligation
+"A party must preserve relevant evidence once litigation is foreseeable.",obligation
+"The contractor shall remedy defects during the warranty period.",obligation
+"The supplier must provide clear information about pricing.",obligation
+"A manufacturer shall recall unsafe products.",obligation
+"A person must comply with a lawful court order.",obligation
+"A person shall appear before a court when summoned.",obligation
+"A licensee must renew the license before expiration.",obligation
+"A claimant shall serve pleadings on the opposing party.",obligation
+"The respondent must file a response within the required time.",obligation
+"A public officer must disclose conflicts of interest.",obligation
+"An authority shall acknowledge receipt of complaints.",obligation
+"A party must maintain confidentiality of settlement discussions.",obligation
+"A borrower shall repay the loan as scheduled.",obligation
+"A secured creditor must dispose of collateral reasonably.",obligation
+"A person must take reasonable steps to prevent foreseeable harm.",obligation
+"An occupier shall warn of known hidden dangers.",obligation
+"A person must obtain consent before processing sensitive data.",obligation
+"A data controller shall provide a privacy notice.",obligation
+"A public body must provide access to records as required.",obligation
+"A person must not tamper with evidence.",obligation
+"Employers must provide necessary safety equipment.",obligation
+"Employees shall observe workplace safety rules.",obligation
+"A company must comply with applicable tax laws.",obligation
+"A taxpayer must file returns within statutory deadlines.",obligation
+"A debtor shall satisfy obligations when due.",obligation
+"A creditor must act in good faith during enforcement.",obligation
+"A public servant shall perform duties impartially.",obligation
+"Police officers must respect fundamental rights.",obligation
+"Judges shall remain independent and impartial.",obligation
+"Administrative authorities must give affected persons a hearing.",obligation
+"A license applicant must meet statutory requirements.",obligation
+"A healthcare provider must obtain informed consent.",obligation
+"Medical professionals shall maintain patient confidentiality.",obligation
+"Researchers must follow ethical guidelines.",obligation
+"Schools shall provide compulsory education.",obligation
+"Parents must ensure children attend school.",obligation
+"Employers shall contribute to social security schemes.",obligation
+"An employee must give notice before resignation.",obligation
+"A landlord shall return the security deposit as required.",obligation
+"A tenant must notify the landlord of serious defects.",obligation
+"Contracting parties must honor agreed deadlines.",obligation
+"A service provider shall perform services with due care.",obligation
+"A carrier must deliver goods without unreasonable delay.",obligation
+"An insurer shall indemnify covered losses.",obligation
+"Insured persons must cooperate during claim investigations.",obligation
+"A public agency must act within its legal powers.",obligation
+"Officials shall record decisions in official registers.",obligation
+"An employer must prevent workplace harassment.",obligation
+"Employers shall investigate complaints promptly.",obligation
+"A supplier must meet quality standards.",obligation
+"A consumer must pay for goods received.",obligation
+"A contractor shall comply with safety regulations.",obligation
+"Construction firms must obtain required permits.",obligation
+"A person must respect zoning regulations.",obligation
+"Property owners shall maintain boundary structures.",obligation
+"A co-owner must not impair common property.",obligation
+"Employers must provide training where required.",obligation
+"Employees shall protect employer property.",obligation
+"A data processor must ensure data confidentiality.",obligation
+"Organizations shall appoint a data protection officer when required.",obligation
+"A public authority must respond to lawful requests.",obligation
+"Citizens must comply with lawful regulations.",obligation
+"A vehicle owner must maintain valid insurance.",obligation
+"Drivers shall obey traffic signals.",obligation
+"A public contractor must follow procurement rules.",obligation
+"Companies shall keep records for statutory periods.",obligation
+"A person must not misuse granted authority.",obligation
+"An agent must act within the scope of authority.",obligation
+"Principals shall honor obligations incurred by agents.",obligation
+"Employees must return employer property upon termination.",obligation
+"Employers shall issue certificates of employment upon request.",obligation
+"A trustee must account for trust administration.",obligation
+"Beneficiaries must act in good faith.",obligation
+"Public officials shall avoid conflicts of interest.",obligation
+"Organizations must implement internal controls.",obligation
+"Regulated entities shall submit periodic reports.",obligation
+"A license holder must allow inspections.",obligation
+"A person must comply with environmental standards.",obligation
+"Polluters shall take corrective measures.",obligation
+"Companies must ensure accuracy of public disclosures.",obligation
+"Financial institutions shall prevent money laundering.",obligation
+"Employees must follow internal policies.",obligation
+"Management shall enforce compliance measures.",obligation
+"A public body must protect personal data it holds.",obligation
+"Authorities shall ensure equal treatment of applicants.",obligation
+"A person must not abuse legal rights.",obligation
+"Contracting parties shall respect confidentiality clauses.",obligation
+"Employers must keep personnel records confidential.",obligation
+"Public institutions shall ensure transparency in decision-making.",obligation
+"No person shall operate a vehicle without a valid driving license.",prohibition
+"It is prohibited to enter restricted premises without authorization.",prohibition
+"No person may disclose confidential information without lawful authority.",prohibition
+"It is forbidden to obstruct justice by interfering with legal proceedings.",prohibition
+"No person shall offer or accept a bribe in connection with official duties.",prohibition
+"It is prohibited to forge or alter official documents.",prohibition
+"No person may knowingly provide false information to a public authority.",prohibition
+"It is forbidden to access a computer system without permission.",prohibition
+"No person shall intercept private communications unlawfully.",prohibition
+"It is prohibited to publish personal data in violation of the law.",prohibition
+"No person may discriminate in employment on prohibited grounds.",prohibition
+"It is forbidden to retaliate against a whistleblower for protected disclosures.",prohibition
+"No person shall sell alcohol to a minor.",prohibition
+"It is prohibited to possess controlled substances without authorization.",prohibition
+"No person may carry a weapon in a prohibited place.",prohibition
+"It is forbidden to obstruct an inspector performing official duties.",prohibition
+"No person shall operate a business without required registration.",prohibition
+"It is prohibited to engage in misleading or deceptive advertising.",prohibition
+"No person may engage in unfair competition practices.",prohibition
+"It is forbidden to launder proceeds derived from criminal activity.",prohibition
+"No person shall knowingly assist another to evade taxes.",prohibition
+"It is prohibited to dump hazardous waste without a permit.",prohibition
+"No person may trespass on private property without consent.",prohibition
+"It is forbidden to intentionally damage public property.",prohibition
+"No person shall threaten violence to obtain property or advantage.",prohibition
+"It is prohibited to intimidate a witness to influence testimony.",prohibition
+"No person may tamper with jurors or attempt unlawful influence.",prohibition
+"It is forbidden to destroy evidence to impede an investigation.",prohibition
+"No person shall unlawfully detain another individual.",prohibition
+"It is prohibited to engage in workplace harassment.",prohibition
+"No person may create a hostile work environment.",prohibition
+"It is forbidden to misuse personal data for unauthorized purposes.",prohibition
+"No person shall impersonate a public official.",prohibition
+"It is prohibited to file false reports with law enforcement.",prohibition
+"No person may operate machinery while intoxicated.",prohibition
+"It is forbidden to violate a protection or restraining order.",prohibition
+"No person shall contact a protected individual in breach of an order.",prohibition
+"It is prohibited to employ a child in hazardous work.",prohibition
+"No person may withhold wages unlawfully.",prohibition
+"It is forbidden to ignore mandatory safety standards.",prohibition
+"No person shall make discriminatory housing decisions.",prohibition
+"It is prohibited to conceal assets to defeat creditors.",prohibition
+"No person may transfer personal data abroad unlawfully.",prohibition
+"It is forbidden to process personal data beyond stated purposes.",prohibition
+"No person shall use force except as permitted by law.",prohibition
+"It is prohibited to incite imminent violence.",prohibition
+"No person may manufacture explosives without a license.",prohibition
+"It is forbidden to obstruct emergency services.",prohibition
+"No person shall violate public health quarantine orders.",prohibition
+"It is prohibited to conduct unlawful surveillance.",prohibition
+"No person may engage in insider trading.",prohibition
+"It is forbidden to manipulate market prices deceptively.",prohibition
+"No person shall refuse access to required public records unlawfully.",prohibition
+"It is prohibited to falsely represent a product as officially approved.",prohibition
+"No person may collect personal data from a child without consent.",prohibition
+"It is forbidden to intentionally set fire to property.",prohibition
+"No person shall engage in tax fraud.",prohibition
+"It is prohibited to misuse company funds.",prohibition
+"No person may accept gifts that compromise impartiality.",prohibition
+"It is forbidden to disclose trade secrets without authorization.",prohibition
+"No person shall obstruct the execution of a court order.",prohibition
+"It is prohibited to engage in price fixing agreements.",prohibition
+"No person may engage in bid rigging.",prohibition
+"It is forbidden to abuse a dominant market position.",prohibition
+"No person shall falsify accounting records.",prohibition
+"It is prohibited to evade customs duties.",prohibition
+"No person may illegally import prohibited goods.",prohibition
+"It is forbidden to export controlled items without a license.",prohibition
+"No person shall exploit another through forced labor.",prohibition
+"It is prohibited to traffic persons for exploitation.",prohibition
+"No person may distribute counterfeit currency.",prohibition
+"It is forbidden to possess child exploitation material.",prohibition
+"No person shall engage in money counterfeiting.",prohibition
+"It is prohibited to hack or disrupt networks unlawfully.",prohibition
+"No person may spread malicious software intentionally.",prohibition
+"It is forbidden to engage in identity theft.",prohibition
+"No person shall obtain credit through false statements.",prohibition
+"It is prohibited to misrepresent qualifications for employment.",prohibition
+"No person may obstruct lawful arrest.",prohibition
+"It is forbidden to resist law enforcement unlawfully.",prohibition
+"No person shall carry out unauthorized searches.",prohibition
+"It is prohibited to detain a person without legal grounds.",prohibition
+"No person may disclose classified information.",prohibition
+"It is forbidden to violate election integrity.",prohibition
+"No person shall engage in voter intimidation.",prohibition
+"It is prohibited to finance illegal activities.",prohibition
+"No person may bribe witnesses.",prohibition
+"It is forbidden to alter official records.",prohibition
+"No person shall misuse public resources for private gain.",prohibition
+"It is prohibited to obstruct audits or inspections.",prohibition
+"No person may fail to comply with mandatory reporting laws.",prohibition
+"It is forbidden to engage in fraudulent insolvency practices.",prohibition
+"No person shall destroy environmental habitats unlawfully.",prohibition
+"It is prohibited to pollute water sources.",prohibition
+"No person may release hazardous substances unlawfully.",prohibition
+"It is forbidden to sell unsafe consumer products.",prohibition
+"No person shall ignore product safety recalls.",prohibition
+"It is prohibited to mislabel goods.",prohibition
+"No person may falsify identity documents.",prohibition
+"It is forbidden to obstruct access to justice.",prohibition
+"No person shall interfere with judicial independence.",prohibition
+"It is prohibited to discriminate in access to public services.",prohibition
+"No person may exploit confidential government information.",prohibition
+"It is forbidden to violate professional secrecy obligations.",prohibition
+"No person shall engage in unauthorized medical practice.",prohibition
+"It is prohibited to prescribe controlled substances unlawfully.",prohibition
+"No person may practice law without authorization.",prohibition
+"It is forbidden to violate licensing conditions.",prohibition
+"No person shall obstruct collective bargaining rights.",prohibition
+"It is prohibited to retaliate against union activity.",prohibition
+"No person may impose forced overtime unlawfully.",prohibition
+"It is forbidden to ignore workplace safety violations.",prohibition
+"No person shall engage in human trafficking.",prohibition
+"It is prohibited to exploit minors for labor.",prohibition
+"No person may obstruct child protection authorities.",prohibition
+"It is forbidden to falsify medical records.",prohibition
+"No person shall conduct illegal experiments on humans.",prohibition
+"It is prohibited to misuse genetic information.",prohibition
+"No person may obstruct environmental impact assessments.",prohibition
+"It is forbidden to evade sanctions imposed by law.",prohibition
+"No person shall assist in terrorism financing.",prohibition
+"It is prohibited to incite hatred or violence unlawfully.",prohibition
+"No person may spread knowingly false emergency information.",prohibition
+"It is forbidden to violate consumer cooling-off rights.",prohibition
+"No person shall impose unlawful contractual terms.",prohibition
+"It is prohibited to refuse lawful inspection of premises.",prohibition
+"No person may engage in unauthorized land occupation.",prohibition
+"It is forbidden to remove protected cultural artifacts.",prohibition
+"No person shall destroy heritage sites unlawfully.",prohibition
+"It is prohibited to obstruct public procurement processes.",prohibition
+"No person may submit false bids in public tenders.",prohibition
+"It is forbidden to conceal conflicts of interest.",prohibition
+"No person shall obstruct freedom of expression unlawfully.",prohibition
+"It is prohibited to censor lawful speech without authority.",prohibition
+"No person may violate data retention obligations.",prohibition
+"It is forbidden to process biometric data unlawfully.",prohibition
+"No person shall ignore lawful administrative decisions.",prohibition
+"It is prohibited to abuse emergency powers.",prohibition
+"No person may exploit disaster situations for fraud.",prohibition
+"It is forbidden to misappropriate charitable funds.",prohibition
+"No person shall obstruct humanitarian assistance.",prohibition
+"It is prohibited to engage in illegal arms trade.",prohibition
+"No person may fail to comply with international sanctions.",prohibition
+"It is forbidden to manipulate scientific research results.",prohibition
+"No person shall obstruct access to essential services unlawfully.",prohibition
+"Any person convicted of theft shall be punished by imprisonment or a fine.",sanction
+"Whoever commits robbery shall be sentenced to a term of imprisonment.",sanction
+"A person found guilty of assault shall be liable to criminal penalties.",sanction
+"Forgery of official documents shall result in imprisonment.",sanction
+"Fraud is punishable by imprisonment and restitution to the victim.",sanction
+"Money laundering shall be punished by imprisonment and confiscation of assets.",sanction
+"Bribery shall result in imprisonment and disqualification from public office.",sanction
+"Extortion is punishable by imprisonment and forfeiture of proceeds.",sanction
+"Cybercrime shall be punished by imprisonment and seizure of equipment.",sanction
+"Illegal possession of controlled substances shall result in criminal sanctions.",sanction
+"Driving under the influence shall lead to license suspension and a fine.",sanction
+"Violation of a protection order shall be punishable by imprisonment.",sanction
+"Failure to appear before a court shall result in a monetary penalty.",sanction
+"Witness intimidation shall be punished by imprisonment.",sanction
+"Tampering with evidence shall result in criminal penalties.",sanction
+"Obstruction of justice is punishable by imprisonment.",sanction
+"Unlawful entry into a dwelling shall be punished by imprisonment.",sanction
+"Attempted murder shall be punished as prescribed by criminal law.",sanction
+"Conspiracy to commit an offense shall carry criminal penalties.",sanction
+"Public corruption shall result in imprisonment and forfeiture.",sanction
+"Tax evasion shall be punished by imprisonment and payment of penalties.",sanction
+"Environmental pollution shall result in fines and corrective measures.",sanction
+"Counterfeiting shall be punished by imprisonment.",sanction
+"Unauthorized disclosure of confidential information shall lead to a fine.",sanction
+"Unfair competition shall result in civil penalties.",sanction
+"Failure to comply with a lawful order shall be punished by a fine.",sanction
+"Unlawful dismissal shall result in compensation to the employee.",sanction
+"Discrimination in employment shall result in monetary penalties.",sanction
+"Harassment shall lead to disciplinary sanctions.",sanction
+"Operating without required registration shall be punished by a fine.",sanction
+"Providing false information to authorities shall result in imprisonment.",sanction
+"Market manipulation shall be punished by imprisonment and fines.",sanction
+"Insider trading shall result in imprisonment and confiscation of profits.",sanction
+"Failure to file tax returns shall result in late penalties.",sanction
+"Noncompliance with safety regulations shall lead to closure and fines.",sanction
+"Unauthorized access to computer systems shall be punished by imprisonment.",sanction
+"Unlawful interception of communications shall result in imprisonment.",sanction
+"Misuse of personal data shall lead to administrative fines.",sanction
+"Failure to notify a data breach shall result in penalties.",sanction
+"Unlawful data transfer shall result in suspension of processing.",sanction
+"Nonpayment of court-ordered fines shall lead to enforcement measures.",sanction
+"Contempt of court shall be punished by imprisonment or a fine.",sanction
+"Violation of an injunction shall result in contempt sanctions.",sanction
+"Failure to comply with reporting obligations shall result in license suspension.",sanction
+"Repeated violations may lead to license revocation.",sanction
+"Operating a vehicle without a license shall result in a fine.",sanction
+"Carrying a weapon in a prohibited place shall be punished by imprisonment.",sanction
+"Possession of counterfeit documents shall lead to imprisonment.",sanction
+"Damage to public property shall be punished by a fine or imprisonment.",sanction
+"Unlawful detention of a person shall result in imprisonment.",sanction
+"Kidnapping shall be punished by imprisonment.",sanction
+"Arson shall result in imprisonment and restitution.",sanction
+"Failure to comply with environmental permits shall result in fines.",sanction
+"Employing a child in hazardous work shall lead to penalties.",sanction
+"Withholding wages unlawfully shall result in administrative sanctions.",sanction
+"Noncompliance with labor regulations shall be punished by fines.",sanction
+"Illegal dumping of waste shall result in penalties and cleanup costs.",sanction
+"Unlawful surveillance shall be punished by imprisonment.",sanction
+"Identity theft shall result in imprisonment and fines.",sanction
+"Distribution of counterfeit goods shall be punished by imprisonment.",sanction
+"Illegal arms trading shall result in imprisonment.",sanction
+"Human trafficking shall be punished by severe criminal penalties.",sanction
+"Violation of public health orders shall result in fines.",sanction
+"Tax fraud shall be punished by imprisonment.",sanction
+"Failure to maintain required records shall result in penalties.",sanction
+"Operating an unsafe business shall result in closure orders.",sanction
+"Unlawful occupation of land shall result in eviction and fines.",sanction
+"Violation of zoning regulations shall result in administrative penalties.",sanction
+"Noncompliance with building codes shall lead to fines.",sanction
+"Illegal construction shall result in demolition orders.",sanction
+"Unauthorized medical practice shall be punished by imprisonment.",sanction
+"Violation of professional duties shall result in disciplinary sanctions.",sanction
+"Failure to respect procurement rules shall result in contract termination.",sanction
+"False declarations in public tenders shall result in exclusion and penalties.",sanction
+"Failure to repay loans shall result in enforcement proceedings.",sanction
+"Abuse of authority shall result in disciplinary and criminal sanctions.",sanction
+"Violation of data protection obligations shall result in fines.",sanction
+"Noncompliance with transparency rules shall lead to penalties.",sanction
+"Illegal use of public funds shall result in restitution and sanctions.",sanction
+"Failure to comply with court judgments shall result in enforcement measures.",sanction
+"Obstruction of inspections shall result in administrative fines.",sanction
+"Illegal export of controlled goods shall be punished by imprisonment.",sanction
+"Violation of sanctions regimes shall result in severe penalties.",sanction
+"Failure to obtain required permits shall result in fines.",sanction
+"Misrepresentation in financial statements shall result in penalties.",sanction
+"Unlawful termination of contracts shall result in damages.",sanction
+"Violation of consumer protection laws shall result in fines.",sanction
+"Sale of unsafe products shall lead to recalls and penalties.",sanction
+"Failure to respect recall orders shall result in sanctions.",sanction
+"Illegal advertising practices shall result in fines.",sanction
+"Noncompliance with competition law shall lead to penalties.",sanction
+"Cartel participation shall result in heavy fines.",sanction
+"Abuse of dominant position shall be sanctioned by fines.",sanction
+"Failure to cooperate with regulators shall result in penalties.",sanction
+"Violation of anti-money laundering rules shall lead to sanctions.",sanction
+"Failure to identify customers properly shall result in fines.",sanction
+"Noncompliance with reporting duties shall result in penalties.",sanction
+"Illegal possession of firearms shall be punished by imprisonment.",sanction
+"Violation of licensing conditions shall lead to suspension.",sanction
+"Failure to respect safety obligations shall result in penalties.",sanction
+"Unlawful restraint of workers shall be punished by sanctions.",sanction
+"Failure to provide mandatory insurance shall result in fines.",sanction
+"Violation of transport regulations shall lead to penalties.",sanction
+"Illegal fishing activities shall result in fines and confiscation.",sanction
+"Unlawful exploitation of natural resources shall result in penalties.",sanction
+"Violation of heritage protection laws shall lead to sanctions.",sanction
+"Failure to comply with emergency measures shall result in penalties.",sanction
+"Illegal fundraising activities shall result in fines.",sanction
+"Misuse of charitable funds shall lead to criminal penalties.",sanction
+"Failure to comply with international obligations shall result in sanctions.",sanction
+"Illegal arms possession shall be punished by imprisonment.",sanction
+"Violation of export controls shall result in penalties.",sanction
+"Failure to respect labor inspections shall lead to sanctions.",sanction
+"Unlawful dismissal of protected workers shall result in reinstatement and penalties.",sanction
+"Failure to pay social contributions shall result in enforcement actions.",sanction
+"Violation of workplace safety rules shall lead to fines.",sanction
+"Illegal use of surveillance technology shall result in penalties.",sanction
+"Failure to respect privacy rights shall lead to administrative fines.",sanction
+"Noncompliance with judicial orders shall be punished by contempt sanctions.",sanction
+"Illegal occupation of public land shall result in eviction and fines.",sanction
+"Failure to comply with tax audits shall result in penalties.",sanction
+"Violation of customs regulations shall lead to confiscation and fines.",sanction
+"Illegal transport of hazardous materials shall result in severe penalties.",sanction
+"Noncompliance with food safety standards shall result in sanctions.",sanction
+"Failure to comply with product labeling rules shall lead to fines.",sanction
+"Unlawful price manipulation shall result in financial penalties.",sanction
+"Violation of consumer rights shall lead to compensation and fines.",sanction
+"Illegal collection of personal data shall result in penalties.",sanction
+"Failure to implement security measures shall lead to fines.",sanction
+"Unlawful disclosure of trade secrets shall result in sanctions.",sanction
+"Failure to comply with merger control rules shall result in penalties.",sanction
+"Illegal takeover practices shall result in sanctions.",sanction
+"Violation of professional secrecy shall be punished by disciplinary measures.",sanction
+"Failure to comply with environmental restoration orders shall result in fines.",sanction
+"Illegal disposal of waste shall result in criminal penalties.",sanction
+"Violation of wildlife protection laws shall lead to sanctions.",sanction
+"Failure to respect water protection rules shall result in penalties.",sanction
+"Unlawful exploitation of workers shall lead to criminal sanctions.",sanction
+"Violation of minimum wage laws shall result in fines.",sanction
+"Failure to respect collective agreements shall lead to penalties.",sanction
+"Illegal lockouts shall result in sanctions.",sanction
+"Failure to comply with public procurement transparency shall result in penalties.",sanction
+"Unlawful exclusion of bidders shall lead to sanctions.",sanction
+"Violation of professional licensing rules shall result in suspension.",sanction
+"Failure to comply with audit requirements shall lead to penalties.",sanction
+"Illegal use of subsidies shall result in repayment and sanctions.",sanction
+"Violation of financial disclosure obligations shall lead to fines.",sanction
+"Failure to comply with court summons shall result in penalties.",sanction
+"Illegal detention of documents shall result in sanctions.",sanction
+"Unlawful seizure of property shall lead to compensation and penalties.",sanction
+"Failure to comply with public safety orders shall result in fines.",sanction
+"Violation of building safety rules shall lead to sanctions.",sanction
+"Illegal alteration of heritage buildings shall result in penalties.",sanction
+"Failure to comply with fire safety rules shall lead to sanctions.",sanction
+"Except in cases of self-defense, the use of force against another person is unlawful.",exception
+"This rule does not apply where the act was carried out under lawful authority.",exception
+"An employer may dismiss an employee without notice only in cases of gross misconduct.",exception
+"A tenant may withhold rent only if the premises are uninhabitable and notice has been given.",exception
+"No liability arises where the damage is caused solely by an unforeseeable natural event.",exception
+"Except as otherwise provided by law, personal data shall not be disclosed to third parties.",exception
+"This provision does not apply to information that is already publicly available.",exception
+"A search may be conducted without a warrant only in exigent circumstances.",exception
+"Evidence is inadmissible unless it falls within a recognized exception.",exception
+"Except with the consent of the parties, arbitration proceedings shall remain confidential.",exception
+"A minor may enter a contract only with parental consent, except for necessities.",exception
+"A contract for the sale of land must be in writing unless performance has already occurred.",exception
+"A party is not liable for delay where performance is prevented by force majeure.",exception
+"Except in cases of fraud, a signed document is presumed to reflect true intent.",exception
+"No person may enter restricted premises except authorized personnel.",exception
+"Disclosure is prohibited unless required by a court order.",exception
+"A driver may exceed the speed limit only to avoid immediate danger.",exception
+"Except during emergencies, construction work is prohibited at night.",exception
+"Employees may access records only as necessary for their duties.",exception
+"An appeal is not allowed where the decision is declared final by law.",exception
+"A license may be renewed except where the holder is legally disqualified.",exception
+"Processing of sensitive data is prohibited unless explicit consent is obtained.",exception
+"A public body shall provide access to records except where disclosure endangers safety.",exception
+"No obligation to disclose exists where legal privilege applies.",exception
+"A witness must answer questions except those protected by privilege.",exception
+"Except in urgent cases, notice must be given before contract termination.",exception
+"A penalty shall not be imposed unless the person had an opportunity to be heard.",exception
+"Payment shall be made in local currency unless otherwise agreed.",exception
+"A guarantee is enforceable only in writing except where law provides otherwise.",exception
+"The buyer may reject goods except for minor defects.",exception
+"A controller must respond within one month unless an extension is justified.",exception
+"Personal data shall be erased after the retention period except where required by law.",exception
+"No entry onto private land is allowed except with consent or lawful warrant.",exception
+"Monitoring of communications is prohibited except for lawful security purposes.",exception
+"A person is not guilty where the act was accidental and without negligence.",exception
+"Except for lawful protest, obstruction of highways is prohibited.",exception
+"Meetings are open to the public except for closed sessions allowed by law.",exception
+"Disputes shall be resolved by arbitration except where parties agree otherwise.",exception
+"Goods may be returned within fourteen days except customized goods.",exception
+"Services shall not be suspended except for nonpayment in bad faith.",exception
+"A person may refuse to answer questions except where immunity applies.",exception
+"Enforcement shall be stayed pending appeal except in urgent cases.",exception
+"Damages may be reduced except where harm was intentional.",exception
+"No damages are awarded for trivial harm except for intentional violations.",exception
+"Limitation periods begin upon discovery except in cases of fraud.",exception
+"A landlord may enter premises only with notice except in emergencies.",exception
+"A minor may work limited hours except in hazardous occupations.",exception
+"Disclosure to regulators is permitted except where secrecy obligations apply.",exception
+"Property seizure requires judicial authorization except for lawful searches.",exception
+"Copying copyrighted material is prohibited except for lawful exceptions.",exception
+"Property may be used without consent only where necessity applies.",exception
+"This Act applies to all persons except where expressly excluded.",exception
+"A public officer must recuse themselves except where no alternative exists.",exception
+"Reporting deadlines apply except where compliance is impossible.",exception
+"A party may terminate for breach except where the breach is minor.",exception
+"Penalties shall not be cumulative except as expressly provided.",exception
+"Written notice is required except where waived by the parties.",exception
+"A duty to rescue exists only in special relationships except by statute.",exception
+"Transfers intended to defeat creditors are void except for bona fide purchasers.",exception
+"Processing may continue except where consent has been withdrawn.",exception
+"Search warrants are required except in cases of immediate danger.",exception
+"Medical treatment requires consent except in life-threatening emergencies.",exception
+"Professional secrecy applies except where disclosure is legally mandated.",exception
+"Public procurement rules apply except for emergency contracts.",exception
+"Environmental permits are required except for minor activities.",exception
+"Noise restrictions apply except during public emergencies.",exception
+"Tax exemptions apply only where statutory conditions are met.",exception
+"Employees may work overtime except where prohibited by law.",exception
+"Freedom of expression may be restricted except where constitutionally protected.",exception
+"Administrative decisions are enforceable except where suspended by appeal.",exception
+"Foreign judgments are recognized except where public policy is violated.",exception
+"Immunity does not apply except as expressly granted.",exception
+"Data transfers abroad are prohibited except with adequate safeguards.",exception
+"Collective action is permitted except where it threatens public order.",exception
+"Private property is inviolable except for lawful expropriation.",exception
+"Judicial hearings are public except where privacy requires closure.",exception
+"Licensing requirements apply except to exempted activities.",exception
+"Competition rules apply except for de minimis agreements.",exception
+"State aid is prohibited except where authorized by law.",exception
+"Monopolies are prohibited except where legally granted.",exception
+"Import restrictions apply except under trade agreements.",exception
+"Export controls apply except for permitted goods.",exception
+"Customs duties apply except for exempted items.",exception
+"Bank secrecy applies except for lawful investigations.",exception
+"Confidentiality obligations apply except where disclosure is required by law.",exception
+"Public funding may be withdrawn except where vested rights exist.",exception
+"Tax confidentiality applies except for authorized disclosures.",exception
+"Professional licenses are required except for exempt professions.",exception
+"Surveillance is prohibited except with judicial authorization.",exception
+"Searches require probable cause except for administrative inspections.",exception
+"Seizure of assets is prohibited except under court order.",exception
+"Use of public space requires permission except for lawful assembly.",exception
+"Demonstrations may be restricted except for peaceful gatherings.",exception
+"Employment protections apply except during probationary periods.",exception
+"Dismissal protections do not apply except to protected categories.",exception
+"Consumer withdrawal rights apply except to perishable goods.",exception
+"Refund obligations apply except where goods are damaged by consumer.",exception
+"Insurance coverage applies except for excluded risks.",exception
+"Liability exclusions apply except for gross negligence.",exception
+"Limitation of liability clauses apply except where prohibited.",exception
+"Public service obligations apply except during force majeure.",exception
+"Contractual penalties apply except where disproportionate.",exception
+"Arbitration clauses apply except for non-arbitrable disputes.",exception
+"Mediation is mandatory except where urgent relief is sought.",exception
+"Public access to information applies except for classified materials.",exception
+"Archival retention applies except where destruction is authorized.",exception
+"Data subject rights apply except where restricted by law.",exception
+"Correction of records is required except where accuracy is disputed.",exception
+"Right to erasure applies except where retention is legally required.",exception
+"Freedom of movement may be restricted except for citizens’ return.",exception
+"Residence permits are required except for short stays.",exception
+"Work permits are required except for exempt categories.",exception
+"Health and safety rules apply except where risk is negligible.",exception
+"Building permits are required except for minor works.",exception
+"Zoning restrictions apply except for existing nonconforming uses.",exception
+"Environmental impact assessments are required except for minor projects.",exception
+"Public consultation is required except in emergency situations.",exception
+"Access to justice is guaranteed except for abusive claims.",exception
+"Legal aid is available except where financial thresholds are exceeded.",exception
+"Judicial immunity applies except for intentional misconduct.",exception
+"Parliamentary immunity applies except for serious crimes.",exception
+"Statutory interpretation follows the text except where absurd results arise.",exception
+"Retroactive application of law is prohibited except for more lenient rules.",exception
+"Criminal liability requires intent except for strict liability offenses.",exception
+"Attempt is punishable except where the law provides otherwise.",exception
+"Accessories are liable except where they acted under duress.",exception
+"Penalties are individualized except where mandatory minimums apply.",exception
+"Confiscation applies except to property of innocent third parties.",exception
+"Rehabilitation measures apply except where imprisonment is mandatory.",exception
+"Suspended sentences apply except for serious offenses.",exception
+"Alternative sanctions apply except where public safety requires custody.",exception
+"Early release may be granted except for excluded crimes.",exception
+"Amnesty applies except to international crimes.",exception
+"Statutes of limitation apply except for imprescriptible offenses.",exception
+"Victim compensation applies except where harm is not proven.",exception
+"Restorative justice applies except where inappropriate.",exception
+"Juvenile protections apply except for serious violent offenses.",exception
+"Parental consent is required except where the minor is emancipated.",exception
+"Adoption secrecy applies except where disclosure is authorized.",exception
+"Family mediation is required except in cases of domestic violence.",exception
+"Custody decisions apply except where immediate danger exists.",exception
+"Support obligations apply except where the child is self-sufficient.",exception
